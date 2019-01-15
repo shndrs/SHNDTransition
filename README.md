@@ -23,7 +23,7 @@ let transitionDelegate = SHNDTransitionController(animationDuration: 0.5,
 
 ```
 
-presentTransitionMode and dismissTransitionMode are just a simple Enum that represent Mode of your transition animation.
+```presentTransitionMode``` and ```dismissTransitionMode``` are just two simple Enums that represent Mode of your transition animation.
 
 and final step happens in your ```func prepare(for segue: UIStoryboardSegue, sender: Any?) ``` like this
 
