@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A0786834D4CB8F5D909B64589E2703D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9787CEAF10CF09CEB92523EDF7340D4 /* ReplaceMe.swift */; };
+		2F83BBE221EE15F1001F8F09 /* AnimationTransformBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83BBE121EE15F1001F8F09 /* AnimationTransformBuilder.swift */; };
+		2F83BBE421EE162C001F8F09 /* SHNDTransitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83BBE321EE162C001F8F09 /* SHNDTransitionController.swift */; };
 		3EFDE71CA534E4B79B2F3CB66F489760 /* SHNDTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F12A1613826D93D4352DD41C23A253A6 /* SHNDTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		403D851065D82C4CCE11C0E824FA4E0B /* SHNDTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDBF1C97533490A73550580B50330211 /* SHNDTransition-dummy.m */; };
 		8883362311D7EB34E4EE98F99C49B312 /* Pods-SHNDTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDEC13B27F3CF40765D4F86F3682A0B /* Pods-SHNDTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,23 +30,24 @@
 /* Begin PBXFileReference section */
 		0C69B5727AEFD64C63814409E690468F /* SHNDTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHNDTransition.xcconfig; sourceTree = "<group>"; };
 		258D8452AB5C8FE55D477C18D5CBF7D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27D4535546E24C5A0188AF0A4C7EA0EE /* Pods_SHNDTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHNDTransition_Tests.framework; path = "Pods-SHNDTransition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D4535546E24C5A0188AF0A4C7EA0EE /* Pods_SHNDTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F83BBE121EE15F1001F8F09 /* AnimationTransformBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimationTransformBuilder.swift; path = SHNDTransition/Classes/AnimationTransformBuilder.swift; sourceTree = "<group>"; };
+		2F83BBE321EE162C001F8F09 /* SHNDTransitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SHNDTransitionController.swift; path = SHNDTransition/Classes/SHNDTransitionController.swift; sourceTree = "<group>"; };
 		32A0B45A3952E991CB7900A618E8BD10 /* SHNDTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHNDTransition.modulemap; sourceTree = "<group>"; };
-		3B69B950F7A973F4AC8B821B598DB667 /* SHNDTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHNDTransition.framework; path = SHNDTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B69B950F7A973F4AC8B821B598DB667 /* SHNDTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SHNDTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF7CDA6DF1A261745BFD4D2F7EFB125 /* Pods-SHNDTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5DE434DBC43EE9D8447FE74AF6161305 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5DE434DBC43EE9D8447FE74AF6161305 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7980C5F49688EBA146F954A71336B94A /* SHNDTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHNDTransition-prefix.pch"; sourceTree = "<group>"; };
 		7F5F51DEDD33C16851958A7FC5C71719 /* Pods-SHNDTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHNDTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8381CB5AA5F9AAC201233599F3876ED7 /* Pods-SHNDTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHNDTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		90247D5E6791092109402A725EDD9FF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		90247D5E6791092109402A725EDD9FF9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		913BD8049BEADDB7E696B40D00798E95 /* Pods-SHNDTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHNDTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A581B87709BCEC0691E32FC54409D981 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEDFD02B613E3AA62E3A09B41E199428 /* Pods-SHNDTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHNDTransition_Tests.modulemap"; sourceTree = "<group>"; };
-		B9787CEAF10CF09CEB92523EDF7340D4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SHNDTransition/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		BFDEC13B27F3CF40765D4F86F3682A0B /* Pods-SHNDTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHNDTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D9520D6AF2F76658EC19B43DEBB8A1D3 /* SHNDTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SHNDTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D9520D6AF2F76658EC19B43DEBB8A1D3 /* SHNDTransition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SHNDTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DDBF1C97533490A73550580B50330211 /* SHNDTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHNDTransition-dummy.m"; sourceTree = "<group>"; };
 		E1899ED49A2D2B36C2CBC735748CF860 /* Pods-SHNDTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHNDTransition_Tests-dummy.m"; sourceTree = "<group>"; };
 		EFA5CCD57ED8402F1482EB3556F1B320 /* Pods-SHNDTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHNDTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -100,9 +102,10 @@
 		59F9B9D184528C6ED65FFAC75EF2C208 /* SHNDTransition */ = {
 			isa = PBXGroup;
 			children = (
-				B9787CEAF10CF09CEB92523EDF7340D4 /* ReplaceMe.swift */,
 				1652B24F4A717E7E78637A2C58680FF8 /* Pod */,
 				041DC4DC36366F6A440799CA812F681C /* Support Files */,
+				2F83BBE121EE15F1001F8F09 /* AnimationTransformBuilder.swift */,
+				2F83BBE321EE162C001F8F09 /* SHNDTransitionController.swift */,
 			);
 			name = SHNDTransition;
 			path = ../..;
@@ -294,7 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0786834D4CB8F5D909B64589E2703D /* ReplaceMe.swift in Sources */,
+				2F83BBE421EE162C001F8F09 /* SHNDTransitionController.swift in Sources */,
+				2F83BBE221EE15F1001F8F09 /* AnimationTransformBuilder.swift in Sources */,
 				403D851065D82C4CCE11C0E824FA4E0B /* SHNDTransition-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +436,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -465,8 +468,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
