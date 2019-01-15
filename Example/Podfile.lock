@@ -1,0 +1,16 @@
+PODS:
+  - SHNDTransition (0.1.0)
+
+DEPENDENCIES:
+  - SHNDTransition (from `../`)
+
+EXTERNAL SOURCES:
+  SHNDTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHNDTransition: 1590c18d4fb2715144d06bc48f04e12b9eb354c7
+
+PODFILE CHECKSUM: 542b947d7a9c76e6bdef565a788ffbcb01e8f39c
+
+COCOAPODS: 1.5.3

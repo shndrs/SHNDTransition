@@ -1,0 +1,22 @@
+{
+  "name": "SHNDTransition",
+  "version": "0.1.0",
+  "summary": "A short description of SHNDTransition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sahandraeisi1994@gmail.com/SHNDTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sahandraeisi1994@gmail.com": "sahandraeisi@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/sahandraeisi1994@gmail.com/SHNDTransition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SHNDTransition/Classes/**/*"
+}

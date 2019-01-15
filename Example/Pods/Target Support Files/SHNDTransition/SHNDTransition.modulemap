@@ -1,0 +1,6 @@
+framework module SHNDTransition {
+  umbrella header "SHNDTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}

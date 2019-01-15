@@ -13,12 +13,12 @@
 
 /* Begin PBXFileReference section */
 		08135F51A69F294EDF90B31A /* Pods-SHNDTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNDTransition_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHNDTransition_Tests/Pods-SHNDTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2BEAB12AB9C858C6F67A1265 /* SHNDTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SHNDTransition.podspec; path = ../SHNDTransition.podspec; sourceTree = "<group>"; };
-		335FA24FD685AEB447F779F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2BEAB12AB9C858C6F67A1265 /* SHNDTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SHNDTransition.podspec; path = ../SHNDTransition.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		335FA24FD685AEB447F779F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SHNDTransition_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHNDTransition_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		63D6966663272EB082F33A02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		63D6966663272EB082F33A02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		68A7B40EBC94282A1EA51770 /* Pods_SHNDTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNDTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5933AE1D3413D2B72B30318 /* Pods-SHNDTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNDTransition_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHNDTransition_Tests/Pods-SHNDTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
