@@ -10,7 +10,7 @@
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-If you'are SEGUE fan then you gonna like this as HELL!!! 😃
+If you're a **SEGUE** fan then you going to like this as HELL!!! 😃
 Actually it is easy as breathing 
 ### Step 1
 Set your segue Kind to ```Show Detail```
