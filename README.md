@@ -30,7 +30,8 @@ and final step happens in your ```Swift func prepare(for segue: UIStoryboardSegu
 ```Swift
 
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    let destination = segue.destination
+
+    guard let destination = segue.destination as? SecondViewController else { return }
     destination.transitioningDelegate = transitionDelegate
 }
 
