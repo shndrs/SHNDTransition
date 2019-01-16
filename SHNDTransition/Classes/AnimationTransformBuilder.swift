@@ -22,7 +22,7 @@ public class PresentTransformBuilder: PresentTransformProtocol {
     
     public typealias BuilderClosure = (PresentTransformBuilder) -> Void
     
-    init(builderClosure: BuilderClosure) {
+    public init(builderClosure: BuilderClosure) {
         builderClosure(self)
     }
 }
@@ -70,7 +70,7 @@ public class DismissTransformBuilder: DismissTransformProtocol {
     
     public typealias BuilderClosure = (DismissTransformBuilder) -> Void
     
-    init(builderClosure: BuilderClosure) {
+    public init(builderClosure: BuilderClosure) {
         builderClosure(self)
     }
 }

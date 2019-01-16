@@ -36,7 +36,7 @@ public class SHNDTransitionController: NSObject {
     private let dismissTransitionMode: DismissTransitionMode
     public var currentTransitionMode:TransitionMode = .present
     
-    init(animationDuration: Double, presentTransitionMode: PresentTransitionMode, dismissTransitionMode: DismissTransitionMode) {
+    public init(animationDuration: Double, presentTransitionMode: PresentTransitionMode, dismissTransitionMode: DismissTransitionMode) {
         self.animationDuration = animationDuration
         self.presentTransitionMode = presentTransitionMode
         self.dismissTransitionMode = dismissTransitionMode
