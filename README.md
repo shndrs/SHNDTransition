@@ -49,7 +49,7 @@ In your SecondViewController class, you should just dismiss the UIViewController
 
 ```Swift
 
-@IBAction func dismissVC(_ sender: Any) {
+@IBAction func dismissVC(_ sender: UIButton) {
     self.dismiss(animated: true, completion: nil)
 }
 
