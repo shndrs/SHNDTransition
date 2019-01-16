@@ -13,9 +13,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 If you're a **SEGUE** fan then you going to like this as HELL!!! 😃
 Actually it is easy as breathing 
 ### Step 1
-Set your segue Kind to ```Show Detail```
+Set your segue Kind to ```Show Detail```.
+
+![step 1](https://user-images.githubusercontent.com/34839080/51232090-f2b28100-197a-11e9-9c18-1988178cf0f4.png)
+
 ### Step 2
-Create an instance of  ```SHNDTransitionController``` in your first UIViewController class 👇🏻
+Create an instance of  ```SHNDTransitionController``` in your FirstViewController class 👇🏻
 
 ```Swift
 
