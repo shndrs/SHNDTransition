@@ -8,6 +8,8 @@
 import Foundation
 import UIKit
 
+// MARK: - Present Transform
+
 public protocol PresentTransformProtocol {
     var parentView: UIView! { get }
     var transitionMode: PresentTransitionMode! { get }
@@ -53,6 +55,8 @@ public class PresentTransformGenerator {
         }
     }
 }
+
+// MARK: - Dismiss Transform
 
 public protocol DismissTransformProtocol {
     var parentView: UIView! { get }

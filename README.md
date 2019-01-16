@@ -5,14 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/SHNDTransition.svg?style=flat)](https://cocoapods.org/pods/SHNDTransition)
 [![Platform](https://img.shields.io/cocoapods/p/SHNDTransition.svg?style=flat)](https://cocoapods.org/pods/SHNDTransition)
 
-<img src="https://raw.githubusercontent.com/Carthage/Carthage/master/Logo/PNG/colored.png" width="32px" height="32px" />  <img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
+<img src="https://raw.githubusercontent.com/CocoaPods/shared_resources/master/img/CocoaPods-Logo-Highlight.png" width="128px" height="32px" />
 
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 If you'are SEGUE fan then you like this as HELL!!! 😃
 Actually it is easy as breathing 
-First of all you create a instance of  ```SHNDTransitionController``` in your first UIViewController class 👇🏻
+
+First of all set your segue to ```Show Detail``` Kind, 
+then create an instance of  ```SHNDTransitionController``` in your first UIViewController class 👇🏻
 
 ```Swift
 

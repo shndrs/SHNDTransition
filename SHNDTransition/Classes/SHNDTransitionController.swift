@@ -71,7 +71,7 @@ extension SHNDTransitionController: UIViewControllerAnimatedTransitioning {
         
     }
     
-    func customPresentAnimation(with transitionContext:UIViewControllerContextTransitioning, viewToAnimate:UIView, presentTransitionMode: PresentTransitionMode) {
+    fileprivate func customPresentAnimation(with transitionContext:UIViewControllerContextTransitioning, viewToAnimate:UIView, presentTransitionMode: PresentTransitionMode) {
         
         viewToAnimate.clipsToBounds = true
         
@@ -96,7 +96,7 @@ extension SHNDTransitionController: UIViewControllerAnimatedTransitioning {
         }
     }
     
-    func customDismissAnimation(with transitionContext:UIViewControllerContextTransitioning, viewToAnimate:UIView, dismissTransitionMode: DismissTransitionMode) {
+    fileprivate func customDismissAnimation(with transitionContext:UIViewControllerContextTransitioning, viewToAnimate:UIView, dismissTransitionMode: DismissTransitionMode) {
         
         let duration = transitionDuration(using: transitionContext)
         let builderObject = DismissTransformBuilder { (builder) in
