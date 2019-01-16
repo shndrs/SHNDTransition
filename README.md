@@ -10,11 +10,12 @@
 ## Example
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-If you'are SEGUE fan then you like this as HELL!!! 😃
+If you'are SEGUE fan then you gonna like this as HELL!!! 😃
 Actually it is easy as breathing 
-
-First of all set your segue to ```Show Detail``` Kind, 
-then create an instance of  ```SHNDTransitionController``` in your first UIViewController class 👇🏻
+### Step 1
+Set your segue Kind to ```Show Detail```
+### Step 2
+Create an instance of  ```SHNDTransitionController``` in your first UIViewController class 👇🏻
 
 ```Swift
 
@@ -24,9 +25,11 @@ let transitionDelegate = SHNDTransitionController(animationDuration: 0.5,
 
 ```
 
-```presentTransitionMode``` and ```dismissTransitionMode``` are just two simple Enums that represent Mode of your transition animation.
+```presentTransitionMode``` and ```dismissTransitionMode``` are just two simple enums that represent mode of your transition animation.
 
-and final step happens in your ```func prepare(for segue: UIStoryboardSegue, sender: Any?) ``` like this
+### Step 3
+
+This step happens in your ```func prepare(for segue: UIStoryboardSegue, sender: Any?) ``` like this 👇🏻
 
 ```Swift
 
@@ -37,13 +40,14 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 }
 
 ```
+### Step 4
 
-now in your SecondViewController class you just should dismiss the UIViewController, in here i dismissed it with an UIButton you can dismiss it with anything you want
+In your SecondViewController class, you should just dismiss the UIViewController, in here i dismissed it with an UIButton, you can dismiss it with anything you want
 
 ```Swift
 
 @IBAction func dismissVC(_ sender: Any) {
-    self.dismiss(animated: true)
+    self.dismiss(animated: true, completion: nil)
 }
 
 ```
