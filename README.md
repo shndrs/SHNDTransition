@@ -56,7 +56,11 @@ In your SecondViewController class, you should just dismiss the UIViewController
 ```
 and do whatever you want in completion handler closure. In this case i just used ```nil```
 ## Requirements
-Swift 4.0 or Later, iOS 9.0 +
+
+<p>iOS 9.0+</p>
+<p>Xcode 10.1</p>  
+<p>Swift 4.0 or later</p>
+
 ## Installation
 
 SHNDTransition is available through [CocoaPods](https://cocoapods.org/pods/SHNDTransition). To install
