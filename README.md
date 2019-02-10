@@ -67,7 +67,7 @@ SHNDTransition is available through [CocoaPods](https://cocoapods.org/pods/SHNDT
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SHNDTransition'. '~> 0.1.2'
+pod 'SHNDTransition', '~> 0.1.2'
 ```
 
 ## Author
