@@ -1,6 +1,6 @@
 # SHNDTransition
 
-[![CI Status](https://img.shields.io/travis/sahandraeisi1994@gmail.com/SHNDTransition.svg?colorB=brightgreen)](https://travis-ci.org/sahandraeisi1994@gmail.com/SHNDTransition)
+![swift-version](https://img.shields.io/badge/Swift-4-43bc59.svg)
 [![Version](https://img.shields.io/cocoapods/v/SHNDTransition.svg?style=flat)](https://cocoapods.org/pods/SHNDTransition)
 [![License](https://img.shields.io/cocoapods/l/SHNDTransition.svg?style=flat)](https://cocoapods.org/pods/SHNDTransition)
 [![Platform](https://img.shields.io/cocoapods/p/SHNDTransition.svg?style=flat)](https://cocoapods.org/pods/SHNDTransition)
